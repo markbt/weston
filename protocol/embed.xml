@@ -94,7 +94,7 @@
 	that uid to the client in a uid_assigned event.  Repeated
 	requests will not assign new uids, but will cause new
 	uid_assigned events to occur.
-      </descrption>
+      </description>
     </request>
 
     <event name="uid_assigned">
@@ -127,7 +127,7 @@
     </request>
 
     <request name="remove_plug">
-      <descripion summary="remove the plug from the hole">
+      <description summary="remove the plug from the hole">
 	Removes the currently embedded plug from the hole.  If there
 	is a plug in the hole, it is send a removed event.  If not,
 	this is a no-op.
@@ -139,7 +139,7 @@
     <description summary="a plug which embeds a surface in a hole">
       Represents a plug which attaches a surface to another surface
       with a hole.
-    </descrption>
+    </description>
 
     <request name="destroy" type="destructor">
       <description summary="destroy the plug, removing the surface">
